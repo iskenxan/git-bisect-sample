@@ -1,4 +1,5 @@
 import logo from './find_bug.svg';
+import error from './error.svg'
 import './App.css';
 
 function App() {
@@ -17,6 +18,10 @@ function App() {
         >
           More tutorials
         </a>
+        <div className="error-container">
+          <img src={error} className="error-logo" />
+          <span>Error</span>
+        </div>
       </header>
     </div>
   );

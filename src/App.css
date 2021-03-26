@@ -7,6 +7,19 @@
   pointer-events: none;
 }
 
+.error-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.error-container {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background-color: #d3d3d3;
+}
+
 
 .App-header {
   background-color: #fff;
