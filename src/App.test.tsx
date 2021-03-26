@@ -1,9 +1,8 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render,  } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('Check for error', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const error = document.getElementsByClassName("error-container")
+  expect(error[0]).toBeUndefined()
 });
