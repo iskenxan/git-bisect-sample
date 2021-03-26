@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from './find_bug.svg';
 import './App.css';
 
@@ -8,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+        Sample project for git-bisect tutorial
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://isamatov.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          More tutorials
         </a>
       </header>
     </div>
